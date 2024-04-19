@@ -43,7 +43,7 @@ export default function About() {
         developer.
       </p>
       <p>
-        <span className='italic'>When I'm not coding</span>, I enjoy singing,
+        <span className='italic'>When I am not coding</span>, I enjoy singing,
         dancing, watching movies, and playing with dogs. I also enjoy{" "}
         <span className='font-medium'>learning new things</span>.
       </p>
