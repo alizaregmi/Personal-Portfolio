@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { VscOrganization } from "react-icons/vsc";
 import recyclerags from "@/public/recyclerags.png";
 import expertbookmart from "@/public/expertbookmart..png";
 
@@ -34,28 +35,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title:
+      "Bachelor in Computer Science and Information Technology (BSc. CSIT)",
+    location: "Bhairahawa Multiple Campus, TU",
+    description: "I am currently studing in 8th semester.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Vice President",
+    location: " CSITAN Rupandehi",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Currently working with CSITAN Rupandehi as a Vice President. Actively worked with CSITAN Rupandehi as an Executive Member in 79/80 tenure, empowering participants with practical skills and fostering a dynamic community of aspiring developers.",
+    icon: React.createElement(VscOrganization),
+    date: "2022 - present",
+  },
+  {
+    title: "Digi School Global",
+    location: "Kathmandu",
+    description:
+      "I worked as a Butwal Representative for 9 months. I managed relationships with 8 different schools within the area. Conducted training sessions for teachers on computer-related topics, enhancing their digital literacy and teaching skills.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May 2023 - Jan 2024",
   },
+
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Deputy Community Builder",
+    location: "Coding Olympics Nepal",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Worked for inspiring students from grades 1 to 10 to explore coding and join coding competitions organised by Coding Olympics Nepal.",
+    icon: React.createElement(VscOrganization),
+    date: "Feb 2023- Apr 2024",
   },
 ] as const;
 
@@ -83,17 +93,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
